@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.naukri.executionEngine.Dynamic_Webtable">
+      <class name="com.naukri.executionEngine.collection.Map_Selenium">
         <methods>
-          <include name="f"/>
+          <include name="element_mapping"/>
         </methods>
-      </class> <!-- com.naukri.executionEngine.Dynamic_Webtable -->
+      </class> <!-- com.naukri.executionEngine.collection.Map_Selenium -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

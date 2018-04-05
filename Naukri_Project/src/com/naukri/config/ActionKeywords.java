@@ -15,12 +15,7 @@ import org.openqa.selenium.interactions.Actions;
 import com.naukri.executionEngine.DriverScript;
 import com.relevantcodes.extentreports.LogStatus;
 
-<<<<<<< HEAD
-// Actionkeyword Added
-=======
-// Actionkeyword
-//Author Balaji
->>>>>>> refs/heads/master
+
 public class ActionKeywords {
 	
 	public static WebDriver driver;
