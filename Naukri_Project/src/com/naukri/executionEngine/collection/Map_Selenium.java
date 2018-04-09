@@ -18,11 +18,25 @@ public class Map_Selenium {
 	  driver.findElement(By.xpath("//button[contains(text(),'I am a Fresher')]")).click();
 	  driver.findElement(By.xpath("//input[@id='fname']")).sendKeys("Balaji");
 	  
-	  /*Map<String,String> map=new HashMap<String,String>();
+	  Map<String,String> map=new HashMap<String,String>();
 	  map.put(driver.findElement(By.xpath("//form[@id='basicDetailForm']/div/label[contains(text(),'Name')]")).getText()
-			  ,driver.findElement(By.xpath("//input[@id='fname']")).getAttribute("input"));
+			  ,driver.findElement(By.xpath("//input[@id='fname']")).getAttribute("value"));
+	  //.getAttribute("input")
+	  map.put(driver.findElement(By.xpath("//*[@id='basicDetailForm']/resman-uploader/div/label")).getText()
+			  ,driver.findElement(By.xpath("//*[@id='basicDetailForm']/resman-uploader/div/div[1]/button/span")).getText());
+	  for(Map.Entry m:map.entrySet()){  
+		   System.out.println("Element name is:"+m.getKey()+" Value Entered is: "+m.getValue());  
+		  } 
+	
+
+//driver.switchTo().alert();
+	  
+	  /*Map<String,String> map=new HashMap<String,String>();
+	  map.put(driver.findElement(By.xpath("//*[@id='basicDetailForm']/resman-uploader/div/label")).getText()
+			  ,driver.findElement(By.xpath("//*[@id='basicDetailForm']/resman-uploader/div/div[1]/button/span")).getText());
 	  for(Map.Entry m:map.entrySet()){  
 		   System.out.println("Element name is:"+m.getKey()+" Value Entered is "+m.getValue());  
-		  }  */
+		  } */
+	  driver.close();
   }
 }
