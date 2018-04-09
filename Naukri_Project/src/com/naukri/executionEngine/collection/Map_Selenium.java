@@ -27,7 +27,7 @@ public class Map_Selenium {
 	  for(Map.Entry m:map.entrySet()){  
 		   System.out.println("Element name is:"+m.getKey()+" Value Entered is: "+m.getValue());  
 		  } 
-	//Commnet removed
+
 
 //driver.switchTo().alert();
 	  
