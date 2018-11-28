@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.naukri.executionEngine.collection.Map_Selenium">
+      <class name="com.naukri.executionEngine.Logo_google">
         <methods>
-          <include name="element_mapping"/>
+          <include name="Logo"/>
         </methods>
-      </class> <!-- com.naukri.executionEngine.collection.Map_Selenium -->
+      </class> <!-- com.naukri.executionEngine.Logo_google -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
